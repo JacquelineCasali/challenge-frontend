@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-empty-object-type */
+
 import React, { InputHTMLAttributes } from 'react'
 import styled from 'styled-components'
 import { SearchIcon } from './icons/searchIcon'
