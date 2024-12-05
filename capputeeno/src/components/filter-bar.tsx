@@ -1,4 +1,5 @@
 "use client"
+import FilterByPrioridade from './filter-by-prioridade'
 import { FiterByTipo } from './fiter-by-tipo'
 import styled from 'styled-components'
 interface FilterBarProps{
@@ -16,6 +17,7 @@ export default function FilterBar(props : FilterBarProps) {
   return (
     <FilterContainer>
       <FiterByTipo/>
+      <FilterByPrioridade/>
     </FilterContainer>
   )
 }
