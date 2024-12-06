@@ -42,6 +42,7 @@ const handleChangeType = (value: FilterType) => {
       >Todos os Produtos</FilterItem>
       <FilterItem selected={type===FilterType.CAMISETAS}
       onClick={()=>handleChangeType(FilterType.CAMISETAS)}>Camisetas</FilterItem>
+     {/* mugs = canecas */}
       <FilterItem selected={type===FilterType.CANECAS}
       onClick={()=>handleChangeType(FilterType.CANECAS)}>Canecas</FilterItem>
     </FilterList>
